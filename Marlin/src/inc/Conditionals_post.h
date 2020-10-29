@@ -988,7 +988,7 @@
       #elif Z2_USE_ENDSTOP == _ZMAX_
         #define Z2_MIN_ENDSTOP_INVERTING Z_MAX_ENDSTOP_INVERTING
       #else
-        #define Z2_MIN_ENDSTOP_INVERTING false
+        #define Z2_MIN_ENDSTOP_INVERTING true
       #endif
     #endif
     #ifndef Z2_MIN_PIN
