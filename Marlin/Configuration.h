@@ -503,11 +503,21 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-  // i3 Mega with E3D V6
-  #define  DEFAULT_Kp 16.05
-  #define  DEFAULT_Ki 1.05
-  #define  DEFAULT_Kd 61.08
+  // i3 Mega with E3D V6 brass nozzle
+  //#define  DEFAULT_Kp 16.05
+  //#define  DEFAULT_Ki 1.05
+  //#define  DEFAULT_Kd 61.08
+
+  // i3 Mega with E3D V6 nozzle X
+  #define  DEFAULT_Kp 15.17
+  #define  DEFAULT_Ki 1.07
+  #define  DEFAULT_Kd 53.98
+
   #endif
+
+
+
+
 #endif // PIDTEMP
 
 //===========================================================================
